@@ -3,7 +3,7 @@
 ## Demonstration Teams - 2021 Fall
 
 1. Workshop 1
-2. Workshop 2
+2. Workshop 2: https://github.com/cameronkc/DF-GROUP2-REPO
 3. Workshop 3
 4. Workshop 4
 5. Workshop 5
