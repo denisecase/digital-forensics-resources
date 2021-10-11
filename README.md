@@ -10,3 +10,7 @@
 6. Workshop 6
 7. Workshop 7
 8. Workshop 8
+
+## With Help From
+
+- [Git Large File Storage (LFS)](https://git-lfs.github.com/)
