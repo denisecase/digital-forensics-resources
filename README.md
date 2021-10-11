@@ -2,14 +2,14 @@
 
 ## Demonstration Teams - 2021 Fall
 
-1. [Workshop 1 - EnCase](https://github.com/GabrielSolomonHolland/EnCase-Digital-Forensics-Presentation-44386)
-2. [Workshop 2 - Splunk](https://github.com/cameronkc/DF-GROUP2-REPO)
-3. Workshop 3
-4. Workshop 4
-5. Workshop 5
-6. Workshop 6
-7. Workshop 7
-8. Workshop 8
+1. [Workshop 1 - Wed 10-08 EnCase](https://github.com/GabrielSolomonHolland/EnCase-Digital-Forensics-Presentation-44386)
+2. [Workshop 2 - Fri 10-08 Splunk](https://github.com/cameronkc/DF-GROUP2-REPO)
+3. [Workshop 3 - Fri 10-15 Mbbile]()
+4. [Workshop 4 - Fri 10-22 Autopsy]()
+5. [Workshop 5 - Fri 11-05 BinWalk]()
+6. [Workshop 6 - Fri 11-12 Volitility]()
+7. [Workshop 7 - Wed 11-17 DF]()
+8. [Workshop 8 - Fri 11-10 Decyption]()
 
 ## With Help From
 
