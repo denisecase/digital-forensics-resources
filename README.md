@@ -14,3 +14,5 @@
 ## With Help From
 
 - [Git Large File Storage (LFS)](https://git-lfs.github.com/)
+- Free limit for LFS is 2 GB, so can't host the 7.5 GB extracted file in Ch09.
+- A different download location is provided in the course site. 
