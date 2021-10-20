@@ -6,7 +6,7 @@
 
 ## Demonstration Teams - 2021 Fall
 
-1. [Workshop 1 - Wed 10-08 EnCase](https://github.com/GabrielSolomonHolland/EnCase-Digital-Forensics-Presentation-44386)
+1. [Workshop 1 - Wed 10-06 EnCase](https://github.com/GabrielSolomonHolland/EnCase-Digital-Forensics-Presentation-44386)
 2. [Workshop 2 - Fri 10-08 Splunk](https://github.com/cameronkc/DF-GROUP2-REPO)
 3. [Workshop 3 - Fri 10-15 Mobile]()
 4. [Workshop 4 - Fri 10-22 Autopsy]()
