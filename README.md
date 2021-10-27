@@ -9,7 +9,7 @@
 
 1. [Workshop Wed 10-06 EnCase](https://github.com/GabrielSolomonHolland/EnCase-Digital-Forensics-Presentation-44386)
 2. [Workshop Fri 10-08 Splunk](https://github.com/cameronkc/DF-GROUP2-REPO)
-3. [Workshop Wed 10-27 Autopsy]()
+3. [Workshop Wed 10-27 Autopsy](https://github.com/Patrick-crtl/Demonstration-Project)
 5. [Workshop Wed 10-27 TBD]()
 6. [Workshop Fri 11-05 BinWalk]()
 7. [Workshop Wed 11-10 Mobile]()
