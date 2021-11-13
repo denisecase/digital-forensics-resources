@@ -12,7 +12,7 @@
 3. [Workshop Wed 10-27 Autopsy](https://github.com/Patrick-crtl/Demonstration-Project)
 5. [Workshop Wed 10-27 TBD]()
 6. [Workshop Fri 11-05 BinWalk](https://github.com/BWeddle/BinwalkGroupProject)
-7. [Workshop Wed 11-10 Mobile]()
+7. [Workshop Wed 11-10 Mobile](https://github.com/mackenziebishop/mobile-forensics)
 8. [Workshop Fri 11-12 Volitility](https://github.com/cameronkc/DF-GROUP2-REPO) 
 9. [Workshop Fri 11-19 Decyption]()
 
