@@ -10,7 +10,7 @@
 1. [Workshop Wed 10-06 EnCase](https://github.com/GabrielSolomonHolland/EnCase-Digital-Forensics-Presentation-44386)
 2. [Workshop Fri 10-08 Splunk](https://github.com/bben6087/splunk-group-workshop)
 3. [Workshop Wed 10-27 Autopsy](https://github.com/Patrick-crtl/Demonstration-Project)
-5. [Workshop Wed 10-27 TBD]()
+5. [Workshop Wed 10-27 Passware](https://github.com/s529296/Passware-Digital-Forensic-Kit-Demo)
 6. [Workshop Fri 11-05 BinWalk](https://github.com/BWeddle/BinwalkGroupProject)
 7. [Workshop Wed 11-10 Mobile](https://github.com/mackenziebishop/mobile-forensics)
 8. [Workshop Fri 11-12 Volitility](https://github.com/cameronkc/DF-GROUP2-REPO) 
