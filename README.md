@@ -21,8 +21,7 @@
 
 - [Git Large File Storage (LFS)](https://git-lfs.github.com/)
 - Free limit for LFS is 2 GB, so can't host the 7.5 GB extracted file in Ch09.
-- A different [download location](https://drive.google.com/file/d/1N3lon9SMjlaEjHLInyqSBCUYQy4ZVGKq/view?usp=sharing) is provided in the course site. 
 
 ## See Also
 
-- <https://github.com/denisecase/digital-forensics-resources-ch05>
+- [Large Ch05 zipfile (800 MB+)](https://drive.google.com/file/d/1jhjynlBisP4gL9x6uamyh9LOo8LJJroQ/view?usp=sharing)
