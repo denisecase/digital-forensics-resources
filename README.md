@@ -24,5 +24,7 @@
 
 ## See Also
 
-- 2022 Chapter 5 Exercise (Module 2) requires Large Ch05 zipfile (800 MB+) available at:
+2022 Chapter 5 Exercise (Module 2) requires
+- Large Ch05 zipfile (800 MB+) available for download from:
 - <https://drive.google.com/file/d/1jhjynlBisP4gL9x6uamyh9LOo8LJJroQ/view?usp=sharing>
+- too big for GitHub and Git Large File System (for free)
