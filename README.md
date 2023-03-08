@@ -1,4 +1,4 @@
-# digital-forensics-resources
+# Digital Forensics Resources
 
 ## Tools
 
