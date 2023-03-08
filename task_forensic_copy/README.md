@@ -1,4 +1,4 @@
-# Case 001: Forensic Copies with PowerShell
+# Case 001: PowerShell Forensic Copy and Verification
 
 This repository contains three PowerShell scripts that can be used to:
 
