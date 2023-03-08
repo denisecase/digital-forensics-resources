@@ -8,6 +8,7 @@
 ## Tasks
 
 - [PowerShell Forensic Copy and Verification](task_forensic_copy)
+- [PowerShell Forensic File Recovery](task_file_recovery)
 
 ## Examples
 
