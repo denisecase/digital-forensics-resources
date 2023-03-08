@@ -4,7 +4,8 @@ This repository contains three PowerShell scripts that can be used to:
 
 1. Create sample evidence for Case 001 as though we've retrieved evidence from the field.
 2. Generate and verify a valid forensic copy of the evidence, so we don't risk the original.
-3. Undo our work and delete all the generated folders.
+3. Recheck our working copy to ensure it still matches the original evidence.
+4. Undo our work and delete all the generated folders.
 
 ## Script 001create.ps1
 
@@ -36,6 +37,17 @@ The script will:
 1. Verify the integrity of the forensic copy.
 1. Create a folder called `001_Evidence_Out_<date>` in the same directory as the script.
 1. Create an output file named hashes.csv with the results.
+
+## Script 001recheck.ps1
+
+This script will recheck our forensic copy still exactly matches the evidence. 
+If not it'll report on the differences. 
+
+To run this script:
+
+1. Open PowerShell.
+2. Navigate to the directory containing the script.
+3. Run the script by entering `.\001recheck.ps1` and pressing Enter.
 
 ## Script 001undo.ps1
 
