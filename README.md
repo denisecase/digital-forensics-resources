@@ -1,5 +1,10 @@
 # digital-forensics-resources
 
+## Tools
+
+- [PowerShell Uses](powershell/uses.md)
+- [Python Uses](python/uses.md)
+
 ## Examples
 
 1. [Website](https://github.com/denisecase/digital-forensics-website)
