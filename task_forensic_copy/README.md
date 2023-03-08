@@ -1,6 +1,6 @@
 # Case 001: PowerShell Forensic Copy and Verification
 
-This repository contains three PowerShell scripts that can be used to:
+This repository contains PowerShell scripts that can be used to:
 
 1. Create sample evidence for Case 001 as though we've retrieved evidence from the field.
 2. Generate and verify a valid forensic copy of the evidence, so we don't risk the original.
@@ -59,7 +59,9 @@ To run this script:
 2. Navigate to the directory where the `001undo.ps1` script is located.
 3. Run the command `.\001undo.ps1`.
 
-Running this script will permanently delete the `001_Evidence` and `001_Forensic_Copy_<date>` folders and all their contents. 
+
+:warning: Running this script will delete the `001_Evidence` and `001_Forensic_Copy_<date>` folders and all their contents, recursively. 
+Exercise caution before running it.
+
 Make sure you've verified the contents of the forensic copy 
 and no longer need the evidence, the copy, or the output results before running it.
-
