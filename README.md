@@ -5,6 +5,10 @@
 - [PowerShell Uses](powershell/uses.md)
 - [Python Uses](python/uses.md)
 
+## Tasks
+
+- [PowerShell Forensic Copy and Verification](task_forensic_copy)
+
 ## Examples
 
 1. [Website](https://github.com/denisecase/digital-forensics-website)
