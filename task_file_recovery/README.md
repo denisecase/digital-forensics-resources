@@ -28,6 +28,6 @@ To run this script:
 2. Navigate to the directory where the `001undo.ps1` script is located.
 3. Run the command `.\200undo.ps1`.
 
-:warning: Running this script will delete the `200_Evidence folders and all their contents, recursively.
+:warning: Running this script will delete the `200_Evidence` folders and all their contents, recursively.
 Exercise caution before running it.
 
