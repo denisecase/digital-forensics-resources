@@ -18,6 +18,7 @@
 ## Courses (Free)
 
 - [Great Learning: Cyber Forensics](https://www.mygreatlearning.com/academy/learn-for-free/courses/cyber-forensics)
+- [Tutorials Point: Python for Digital Forensics](https://www.tutorialspoint.com/python_digital_forensics/python_digital_forensics_introduction.htm)
 
 ## GitHub Topics
 
