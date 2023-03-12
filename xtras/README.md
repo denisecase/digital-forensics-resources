@@ -7,14 +7,6 @@
 - [Google CTF](https://buildyourfuture.withgoogle.com/events/ctf)
 - [Example 2017 CTF Write-Ups](https://github.com/SPRITZ-Research-Group/ctf-writeups)
 
-## Corpora
-
-- [Digital Corpora](https://digitalcorpora.org/corpora/)
-  - Cell phone images
-  - Disk images
-  - Packet Dumps
-  - Scenarios
-
 ## Courses (Free)
 
 - [Great Learning: Cyber Forensics](https://www.mygreatlearning.com/academy/learn-for-free/courses/cyber-forensics)
@@ -22,7 +14,7 @@
 
 ## GitHub Topics
 
-- [Digital Forensics](<https://github.com/topics/digital-forensics)
+- [Digital Forensics](https://github.com/topics/digital-forensics)
 - [Computer Forensics](https://github.com/topics/computer-forensics)
 - [Forensic Analysis](https://github.com/topics/forensic-analysis)
 - [Forensic Tools](https://github.com/topics/forensic-tools)
@@ -32,8 +24,9 @@
 - [Digital Forensics Guide](https://github.com/mikeroyal/Digital-Forensics-Guide)
 - <https://github.com/cugu/awesome-forensics>
 - <https://github.com/xiosec/Computer-forensics>
+- <https://github.com/dod-cyber-crime-center>
 
-## Government
+## Government and Organizations
 
 - [Digital evidence | NIST](https://www.nist.gov/digital-evidence)
 - [DHS](https://www.dhs.gov/science-and-technology/forensics)
@@ -42,6 +35,7 @@
 - <https://www.cisa.gov/cyber-defense-forensics-analyst>
 - <https://www.rcfl.gov/>
 - <https://bja.ojp.gov/>
+- [Honeynet Project](https://www.honeynet.org/)
 
 ## Guides
 
@@ -49,6 +43,15 @@
 Digital Evidence](https://www.forensicsciencesimplified.org/digital/how.html)
 - [Device Data](https://www.iacpcybercenter.org/officers/cyber-crime-investigations/common-electronic-devices-that-generate-digital-evidence/)
 - [Cyber Forensics](https://www.iacpcybercenter.org/officers/cyber-forensics/)
+
+## Corpora
+
+- [1999 DARPA Intrusion Detection Dataset](https://www.ll.mit.edu/r-d/datasets/1999-darpa-intrusion-detection-evaluation-dataset)
+- [Digital Corpora](https://digitalcorpora.org/corpora/)
+  - Cell phone images
+  - Disk images
+  - Packet Dumps
+  - Scenarios
 
 ## Scenarios
 
