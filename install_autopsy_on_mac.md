@@ -24,6 +24,7 @@ From a terminal in the linux_macos_install_scripts folder, the commands look lik
 ```shell
 chmod +x install_prereqs_macos.sh
 chmod +x add_macos_jna.sh
+chmod +x install_tsk_from_src.sh
 ```
 
 ## Install Prerequisites
@@ -55,14 +56,14 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 
 Then, install The Sleuth Kit from source by running [`linux_macos_install_scripts/install_tsk_from_src.sh`](./linux_macos_install_scripts/install_tsk_from_src.sh), 
 which will download, build, and install The Sleuth Kit.  
-It can be run as follows: 
+Make sure the path ends with /sleuthkit and the tag is the one from the [repository](https://github.com/sleuthkit/sleuthkit). 
+The release tag is currently 4.12.1. 
 
 ```shell
-install_tsk_from_src.sh -p ~/src/sleuthkit -b sleuthkit-4.11.1
+./install_tsk_from_src.sh -p ~/src/sleuthkit -b sleuthkit-4.12.1
 ```
  
-Important: Ensure your path to download source ends with "sleuthkit" as the last directory, 
-and the release is the corresponding tag in the [repository](https://github.com/sleuthkit/sleuthkit).
+Important: The path must end in "sleuthkit" and the release must match the repo lastest release. 
 
 ## Installing Autopsy
 
