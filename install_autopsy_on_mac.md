@@ -79,12 +79,10 @@ The file will be tagged with a release (i.e. "autopsy-4.21.0.zip").
 To install Autopsy, run [`install_application.sh`](./linux_macos_install_scripts/install_application.sh) 
 with the following parameters: `install_application.sh [-z zip_path] [-i install_directory] [-j java_home]`.  
 
-For example, from a terminal open in the downloaded, extracted autopsy subfolder linux_macos_install_scripts and run the following to make it executable and to ensure the correct location of your JVM. Adjust the final command as necessary. 
+For example, from a terminal open in the downloaded, extracted autopsy subfolder linux_macos_install_scripts and run the following to make it executable and to ensure the correct location of your JVM. Adjust the final command as necessary if your version is newer. 
 
 ```shell
 chmod +x install_application.sh
-
-/usr/libexec/java_home -v 17
 
 ./install_application.sh -z ~/Downloads/autopsy-4.21.0.zip -i ~/autopsy -j /usr/lib/jvm/java-1.17.0-openjdk-amd64
 ```
@@ -97,10 +95,10 @@ but typically, the path will be in the result of running `/usr/libexec/java_home
 Run [linux_macos_install_scripts/add_macos_jna.sh](./linux_macos_install_scripts/add_macos_jna.sh) to properly setup the jna path to get things like gstreamer working.
 For example:
 
-```
+```shell
 chmod +x add_macos_jna.sh
 
-add_macos_jna.sh -i ~/autopsy
+./add_macos_jna.sh -i ~/autopsy
 ```
 
 ## Troubleshooting
