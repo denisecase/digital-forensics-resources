@@ -114,10 +114,12 @@ Copying sleuthkit-4.12.1.jar into the autopsy directory...done
 Application is now configured. You can execute bin/autopsy to start it
 ```
 
-## Setup macOS JNA paths
+## Optional: Setup macOS JNA paths
 
 Run [linux_macos_install_scripts/add_macos_jna.sh](./linux_macos_install_scripts/add_macos_jna.sh) to properly setup the jna path to get things like gstreamer working.
-For example:
+Gstreamer is used for multimedia (audio and video) processing and analysis.
+Enabling this requires editing config files such as <autopsy_install_location>/etc/autopsy.conf.
+It can be ommitted for now. 
 
 ```shell
 chmod +x add_macos_jna.sh
@@ -125,7 +127,9 @@ chmod +x add_macos_jna.sh
 ./add_macos_jna.sh -i ~/autopsy
 ```
 
-## Troubleshooting
+## Troubleshooting 
+
+See the original [Running_Linux_OSX.md](https://github.com/sleuthkit/autopsy/blob/develop/Running_Linux_OSX.md)
 
 - If you see something like "Cannot create case: javafx/scene/paint/Color" it is an indication that Java FX
   is not being found.  Confirm that the file `$JAVA_HOME/jre/lib/ext/jfxrt.jar` exists. If it does not exist, return to the Java
