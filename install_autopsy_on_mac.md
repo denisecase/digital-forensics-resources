@@ -11,6 +11,9 @@ The zip file is about 1.2 GB.
 Instructions for Mac and Linux are included in the download. 
 See the online page at <https://github.com/sleuthkit/autopsy/blob/develop/Running_Linux_OSX.md>.
 
+**Important:** Verify each step successfully completes before continuing.
+Each step must complete successfully for the installation to work. 
+
 ## Install Homebrew Package Manager 
 
 The provided scripts require the package manager: [Homebrew](https://brew.sh/), which has installation steps on their site.
@@ -96,6 +99,20 @@ chmod +x install_application.sh
 
 The path to the Java 17 home is the last output from the [prequisites installation scripts](#installing-prerequisites),
 but typically, the path will be in the result of running `/usr/libexec/java_home -v 17` on macOS.
+
+After successful completion, you should see something like the following. 
+
+```shell
+---------------------------------------------
+Checking prerequisites and preparing autopsy:
+---------------------------------------------
+~/autopsy/autopsy-4.21.0 ~/autopsy/autopsy-4.21.0
+Checking for PhotoRec...Checking for Java...Checking for Sleuth Kit Java bindings...found in /usr/local/share/java
+Copying sleuthkit-4.12.1.jar into the autopsy directory...done
+~/autopsy/autopsy-4.21.0
+
+Application is now configured. You can execute bin/autopsy to start it
+```
 
 ## Setup macOS JNA paths
 
