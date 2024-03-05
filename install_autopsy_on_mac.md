@@ -114,6 +114,25 @@ Copying sleuthkit-4.12.1.jar into the autopsy directory...done
 Application is now configured. You can execute bin/autopsy to start it
 ```
 
+## Running Autopsy
+
+Our terminal during installation is in the scripts subfolder.
+We need to move to our installed autopsy location and the bin (binary) subfolder to run the executable. 
+Use Finder to go to your username/autopsy-4.21.0/bin folder and open a terminal there.
+
+From a terminal in the username/autopsy-4.21.0/bin folder, run `ls` to verify the existance of a file named autopsy (no file extension).
+Make the script executable, then run autopsy.
+For example:
+
+```shell
+ls
+
+chmod +x autopsy
+
+./autopsy
+```
+
+
 ## Optional: Setup macOS JNA paths
 
 Run [linux_macos_install_scripts/add_macos_jna.sh](./linux_macos_install_scripts/add_macos_jna.sh) to properly setup the jna path to get things like gstreamer working.
