@@ -23,21 +23,22 @@ From a terminal in the linux_macos_install_scripts folder, the commands look lik
 
 ```shell
 chmod +x install_prereqs_macos.sh
-chmod +x add_macos_jna.sh
 ```
 
 ## Install Prerequisites
 
-Run [`linux_macos_install_scripts/install_prereqs_macos.sh`](./linux_macos_install_scripts/install_prereqs_macos.sh).  
-From a terminal in the linux_macos_install_scripts folder, after installing Homebrew and making the scripts executable run:
+Run [`linux_macos_install_scripts/install_prereqs_macos.sh`](./linux_macos_install_scripts/install_prereqs_macos.sh).
+From a terminal in the linux_macos_install_scripts folder, after installing Homebrew and making the script executable:
 
 ```shell
+chmod +x install_prereqs_macos.sh
+
 ./install_prereqs_macos.sh
 ```
 
 After installing. After installation, it will ask for your Mac login password.
 After successfully entering your user password,
-it will display the path to the Java 17 installation.  
+it will display the path to the Java 17 installation.
 You will need that path later.
 
 ```shell
@@ -53,13 +54,14 @@ Ensure that for this session, your `JAVA_HOME` variable is set to the java 17 in
 export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 ```
 
-Then, install The Sleuth Kit from source by running [`linux_macos_install_scripts/install_tsk_from_src.sh`](./linux_macos_install_scripts/install_tsk_from_src.sh), 
-which will download, build, and install The Sleuth Kit.  
+Then, install The Sleuth Kit from source by running [`linux_macos_install_scripts/install_tsk_from_src.sh`](./linux_macos_install_scripts/install_tsk_from_src.sh),
+which will download, build, and install The Sleuth Kit.
 Make sure the path ends with /sleuthkit and the tag is the one from the [repository](https://github.com/sleuthkit/sleuthkit). 
 The release tag is currently 4.12.1. 
 
 ```shell
 chmod +x install_tsk_from_src.sh
+
 ./install_tsk_from_src.sh -p ~/src/sleuthkit -b sleuthkit-4.12.1
 ```
  
@@ -92,8 +94,14 @@ but typically, the path will be in the result of running `/usr/libexec/java_home
 
 ## Setup macOS JNA paths
 
-Run [linux_macos_install_scripts/add_macos_jna.sh](./linux_macos_install_scripts/add_macos_jna.sh) to properly setup the jna path to get things like gstreamer working.  
-An example would be `add_macos_jna.sh -i ~/autopsy`.
+Run [linux_macos_install_scripts/add_macos_jna.sh](./linux_macos_install_scripts/add_macos_jna.sh) to properly setup the jna path to get things like gstreamer working.
+For example:
+
+```
+chmod +x add_macos_jna.sh
+
+add_macos_jna.sh -i ~/autopsy
+```
 
 ## Troubleshooting
 
