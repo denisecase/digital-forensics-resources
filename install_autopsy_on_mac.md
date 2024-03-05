@@ -24,7 +24,6 @@ From a terminal in the linux_macos_install_scripts folder, the commands look lik
 ```shell
 chmod +x install_prereqs_macos.sh
 chmod +x add_macos_jna.sh
-chmod +x install_tsk_from_src.sh
 ```
 
 ## Install Prerequisites
@@ -60,6 +59,7 @@ Make sure the path ends with /sleuthkit and the tag is the one from the [reposit
 The release tag is currently 4.12.1. 
 
 ```shell
+chmod +x install_tsk_from_src.sh
 ./install_tsk_from_src.sh -p ~/src/sleuthkit -b sleuthkit-4.12.1
 ```
  
