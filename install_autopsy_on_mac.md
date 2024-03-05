@@ -35,10 +35,18 @@ From a terminal in the linux_macos_install_scripts folder, after installing Home
 ./install_prereqs_macos.sh
 ```
 
-*NOTE: The last output of the script is the path to the Java 17 installation.  
-You will need that path when installing Autopsy.
+After installing. After installation, it will ask for your Mac login password.
+After successfully entering your user password,
+it will display the path to the Java 17 installation.  
+You will need that path later.
 
-Output might look like the following. 
+```shell
+Password:
+Java 17 path: /opt/homebrew/Cellar/openjdk@17/17.0.10/libexec/openjdk.jdk/Contents/Home
+```
+
+
+Output included the following. 
 
 ```shell
 ==> No broken dependents found!
