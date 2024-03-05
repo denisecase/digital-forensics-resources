@@ -45,27 +45,8 @@ Password:
 Java 17 path: /opt/homebrew/Cellar/openjdk@17/17.0.10/libexec/openjdk.jdk/Contents/Home
 ```
 
+## Set JAVA_HOME and Install The Sleuth Kit
 
-Output included the following. 
-
-```shell
-==> No broken dependents found!
-==> Caveats
-==> openjdk@17
-For the system Java wrappers to find this JDK, symlink it with
-  sudo ln -sfn /opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-17.jdk
-
-openjdk@17 is keg-only, which means it was not symlinked into /opt/homebrew,
-because this is an alternate version of another formula.
-
-If you need to have openjdk@17 first in your PATH, run:
-  echo 'export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"' >> ~/.zshrc
-
-For compilers to find openjdk@17 you may need to set:
-  export CPPFLAGS="-I/opt/homebrew/opt/openjdk@17/include"
-```
-
-## Install The Sleuth Kit
 Ensure that for this session, your `JAVA_HOME` variable is set to the java 17 installation by running `export JAVA_HOME=$(/usr/libexec/java_home -v 17)`.  
 
 ```shell
@@ -74,8 +55,13 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 
 Then, install The Sleuth Kit from source by running [`linux_macos_install_scripts/install_tsk_from_src.sh`](./linux_macos_install_scripts/install_tsk_from_src.sh), 
 which will download, build, and install The Sleuth Kit.  
-It can be run as follows: `install_tsk_from_src.sh -p ~/src/sleuthkit -b sleuthkit-4.11.1`.  
-Make sure that your path to download source ends with "sleuthkit" as the last directory, 
+It can be run as follows: 
+
+```shell
+install_tsk_from_src.sh -p ~/src/sleuthkit -b sleuthkit-4.11.1
+```
+ 
+Important: Ensure your path to download source ends with "sleuthkit" as the last directory, 
 and the release is the corresponding tag in the [repository](https://github.com/sleuthkit/sleuthkit).
 
 ## Installing Autopsy
