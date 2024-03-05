@@ -79,15 +79,22 @@ The file will be tagged with a release (i.e. "autopsy-4.21.0.zip").
 To install Autopsy, run [`install_application.sh`](./linux_macos_install_scripts/install_application.sh) 
 with the following parameters: `install_application.sh [-z zip_path] [-i install_directory] [-j java_home]`.  
 
-For example, from a terminal open in the downloaded, extracted autopsy subfolder linux_macos_install_scripts and run the following to make it executable and to ensure the correct location of your JVM. Adjust the final command as necessary if your version is newer. 
+For example, from a terminal open in the downloaded, extracted autopsy subfolder linux_macos_install_scripts and run the following to make it executable and to ensure the correct location of your JVM.
+Adjust the final command as necessary - two options are offered as examples. 
 
 ```shell
 chmod +x install_application.sh
 
+/usr/libexec/java_home -v 17
+
+#Update your command as needed
+
 ./install_application.sh -z ~/Downloads/autopsy-4.21.0.zip -i ~/autopsy -j /usr/lib/jvm/java-1.17.0-openjdk-amd64
+
+./install_application.sh -z ~/Downloads/autopsy-4.21.0.zip -i ~/autopsy -j /opt/homebrew/Cellar/openjdk@17/17.0.10/libexec/openjdk.jdk/Contents/Home
 ```
 
-The path to the Java 17 home is the last output from the [prequisites installation scripts](#installing-prerequisites), 
+The path to the Java 17 home is the last output from the [prequisites installation scripts](#installing-prerequisites),
 but typically, the path will be in the result of running `/usr/libexec/java_home -v 17` on macOS.
 
 ## Setup macOS JNA paths
