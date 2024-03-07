@@ -11,9 +11,6 @@ The zip file is about 1.2 GB.
 Instructions for Mac and Linux are included in the download. 
 See the online page at <https://github.com/sleuthkit/autopsy/blob/develop/Running_Linux_OSX.md>.
 
-**Important: Verify each step has successfully completed before continuining on to the next step.**
-Each step must complete successfully for the installation to work. 
-
 ## Make Provided Scripts Executable As You Work
 
 For security reasons, you may not be able to run a script (.sh) file by default. 
@@ -23,6 +20,11 @@ From a terminal in the linux_macos_install_scripts folder, the commands look lik
 ```shell
 chmod +x install_prereqs_macos.sh
 ```
+
+## Verify Success at each Step
+
+**Important: Verify each step has successfully completed before continuining on to the next step.**
+Each step must complete successfully for the installation to work. 
 
 ## 1. Install Homebrew Package Manager 
 
