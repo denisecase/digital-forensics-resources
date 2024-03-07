@@ -11,14 +11,10 @@ The zip file is about 1.2 GB.
 Instructions for Mac and Linux are included in the download. 
 See the online page at <https://github.com/sleuthkit/autopsy/blob/develop/Running_Linux_OSX.md>.
 
-**Important:** Verify each step successfully completes before continuing.
+**Important: Verify each step has successfully completed before continuining on to the next step.**
 Each step must complete successfully for the installation to work. 
 
-## Install Homebrew Package Manager 
-
-The provided scripts require the package manager: [Homebrew](https://brew.sh/), which has installation steps on their site.
-
-## Make Provided Scripts Executable
+## Make Provided Scripts Executable As You Work
 
 For security reasons, you may not be able to run a script (.sh) file by default. 
 To enable execution, open a terminal in the downloaded subfolder linux_macos_install_scripts and run chmod +x scriptfilename. 
@@ -28,7 +24,17 @@ From a terminal in the linux_macos_install_scripts folder, the commands look lik
 chmod +x install_prereqs_macos.sh
 ```
 
-## Install Prerequisites
+## 1. Install Homebrew Package Manager 
+
+The provided scripts require the package manager: [Homebrew](https://brew.sh/), which has installation steps on their site.
+
+Verify installation by opening a terminal and running:
+
+```shell
+brew --version
+```
+
+## 2. Install Prerequisites
 
 Run [`linux_macos_install_scripts/install_prereqs_macos.sh`](./linux_macos_install_scripts/install_prereqs_macos.sh).
 From a terminal in the linux_macos_install_scripts folder, after installing Homebrew and making the script executable:
@@ -49,7 +55,7 @@ Password:
 Java 17 path: /opt/homebrew/Cellar/openjdk@17/17.0.10/libexec/openjdk.jdk/Contents/Home
 ```
 
-## Set JAVA_HOME and Install The Sleuth Kit
+## 3. Set JAVA_HOME and Install The Sleuth Kit
 
 Ensure that for this session, your `JAVA_HOME` variable is set to the java 17 installation by running `export JAVA_HOME=$(/usr/libexec/java_home -v 17)`.  
 
@@ -73,7 +79,7 @@ Important: The path must end in "sleuthkit" and the release must match the repo 
 At some point, it will ask for your user login password on the Mac.
 After successfully entering your password, it will continue. 
 
-## Installing Autopsy
+## 4. Installing Autopsy
 
 You should have already downloaded the Autopsy zip file.
 It is available at [repository releases](https://github.com/sleuthkit/autopsy/releases).  
@@ -114,7 +120,7 @@ Copying sleuthkit-4.12.1.jar into the autopsy directory...done
 Application is now configured. You can execute bin/autopsy to start it
 ```
 
-## Running Autopsy
+## 5. Running Autopsy
 
 Our terminal during installation is in the scripts subfolder.
 We need to move to our installed autopsy location and the bin (binary) subfolder to run the executable. 
